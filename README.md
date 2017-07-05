@@ -1,0 +1,2 @@
+# TcpFileMigrator
+It is an application uses TCP/IP protocol to trigger a background job. There are two parts in the application, one is a client web application which accepts a set of files in compressed/zip format and sends to a background worker which works based on TCP protocol. The background worker listens to a TCP port and processes the file stream once it is received from the client application. The file processing is done in the background and unzipped files are uploaded to Cloud Storage (currently it is Azure Blob storage).
