@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TcpConnect\TcpServerConnector.csproj" />
+    <ProjectReference Include="..\TcpServerConnector\TcpServerConnector.csproj" />
   </ItemGroup>
 
 </Project>
